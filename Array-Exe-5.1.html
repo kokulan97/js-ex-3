@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+
+<script>
+var foods = ["rice", "pizza", "sandwich", "rolls"];
+document.getElementById("demo").innerHTML = foods;
+function myFunction() {
+  foods.pop();
+  document.getElementById("demo").innerHTML = foods;
+}
+</script>
+
+</body>
+</html>
